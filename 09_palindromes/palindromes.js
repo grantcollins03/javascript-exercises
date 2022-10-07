@@ -6,7 +6,6 @@ const palindromes = function (str) {
     let reversed = [...array].reverse();
     return (array.join('') === reversed.join(''))
 };
-palindromes("racecar");
 
 // Do not edit below this line
 module.exports = palindromes;
