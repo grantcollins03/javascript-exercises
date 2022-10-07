@@ -11,19 +11,6 @@ const fibonacci = function(num) {
     }
     return fibArray[fibArray.length - 1];
 };
-fibonacci("6");
-
-
-//  use unshift() to put elements at the beginning of an array, push() to put them at the end
-//PSEUDO
-
-//sent function a num
-//the (num - 1) is the index of the element in a fibonacci array
-//need to add the previous two elements together somehow
-//basically, create a new array with the length up to array[num - 1]
-//from that array, grab the last element or array[num - 1]
-
-//is there a way to use an array method on this?
 
 // Do not edit below this line
 module.exports = fibonacci;
